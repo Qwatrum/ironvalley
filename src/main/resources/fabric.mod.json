@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ironvalley",
+  "version": "${version}",
+  "name": "IronValley",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ironvalley/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.qwatrum.ironvalley.client.IronvalleyClient"
+    ],
+    "main": [
+      "de.qwatrum.ironvalley.Ironvalley"
+    ],
+    "fabric-datagen": [
+      "de.qwatrum.ironvalley.client.IronvalleyDataGenerator"
+    ],
+    "terrablender": [
+      "de.qwatrum.ironvalley.IronValleyBiome"
+    ]
+  },
+  "mixins": [
+    "ironvalley.mixins.json",
+    {
+      "config": "ironvalley.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
