@@ -1,0 +1,107 @@
+{
+  "attributes": {
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/snow_golem_melts": true,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.1
+      }
+    ]
+  },
+  "temperature": 2.0,
+  "downfall": 0.1,
+  "has_precipitation": true,
+  "creature_spawn_probability": 0.5,
+  "effects": {
+    "water_color": 5779491,
+    "foliage_color": 6845232
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:skeleton_horse",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:trees_savanna",
+      "minecraft:patch_dead_bush_badlands"
+    ],
+    []
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
